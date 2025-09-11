@@ -1,0 +1,18 @@
+{
+  "campaignGUID": "7be11851-222d-479d-be68-401ce2228fc3",
+  "campaignName": "Back Again - A Hobbit's Tale",
+  "campaignVersion": "1",
+  "fileVersion": "1.40",
+  "coverImage": null,
+  "storyText": "The quest to reclaim the Lonely Mountain is ended. And after all the peril, excitement, and battle, a longing for his own armchair has settled on Bilbo Baggins. It is time to go Back Again.\r\n\r\nBut even Your Journey back may be fraught with hardships and adventures.\r\n\r\nGandalf has taken Bilbo under his wing once more and promised to see him safely home to the Shire - or as safely as may be in these times and this weather, for winter is fast approaching. Beorn also has promised to accompany them at least as far as his homestead on the western edge of Mirkwood.\r\n\r\nOthers have also expressed interest in joining the troop, whether looking for adventure, a new home after the conflagration that engulfed Lake-Town, or for other reasons known only to them. Gandalf seems pleased by the prospect of travelling companions. \"You never know when the fellowship of travellers may come in handy,\" he muses, \"and after all, misery makes strange bedfellows!\"\r\n\r\n\"We've had quite enough misery, I'd say!\" exclaims Bilbo.\r\n\r\n\"Ah, true, But you have never trudged the northern edge of Mirkwood in winter, have you?\" rumbles Gandalf, with a stern glance. Then his eye twinkles and he adds, \"Don't worry, I'm sure it won't be all misery. There's likely to be a good deal of excitement along the way as well, and then...\"\r\n\r\n\"Excitement!\" Bilbo breaks in. \"I think I've had quite enough excitement as well, if I live to be one hundred.\"\r\n\r\n\"As I was saying,\" Gandalf resumes, \"and <i>then</i>, we'll get you back to your safe, soft Hobbit hole, none the worse for wear, and a good deal wiser! Now, it's time to get packing. The Elvenking has been a gracious host, and an elven war-camp is better accomodations than many I have had to be sure! But Thranduil's elf-host will be returning home soon, and I want to ride out with them. Say your farewells, Bilbo. Gather your things. And try not to forget your handkerchief this time - unless you've discovered you don't need one. We must be off soon.\"\r\n\r\nBilbo bows his head, looks at his hands, and nods. \"I must say goodbye to Balin, and Dwalin, and all the rest. I shall miss them.\"\r\n\r\n\"I suspect you may see some of them again,\" Gandalf opines, \"although under what circumstances, I cannot begin to imagine.\"\r\n\r\n\"What about Beorn?\" Bilbo asks.\r\n\r\n\"Oh, I wouldn't worry about him. He'll find us, when he's ready to.\" And with that, Gandalf is out of the tent in a billow of grey robes and a clack of his staff. \r\n\r\nBilbo follows shortly after, his bags packed and an elven handkerchief tucked into his breast pocket. <i>I made it there</i>, he thinks to himself,<i> now back again!</i>",
+  "description": "Join (or play as) Bilbo, Gandalf & Beorn on the journey Back Again",
+  "startWithTrinkets": false,
+  "startWithMounts": false,
+  "scenarioCollection": [
+    {
+      "scenarioName": "A Very Fond Farewell",
+      "fileName": "A Very Fond Farewell.jime"
+    }
+  ],
+  "triggerCollection": []
+}

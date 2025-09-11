@@ -1,0 +1,527 @@
+{
+  "scenarioGUID": "b9a853be-17cf-49f9-a110-2b892a358a32",
+  "campaignGUID": "7be11851-222d-479d-be68-401ce2228fc3",
+  "specialInstructions": "Leaving Thranduil's encampment, Bilbo returns once more to the Lonely Mountain, accompanied by his companions. Bilbo wants to bid one last farewell to his Dwarven friends, the ten who remain of Thorin's companions. And he would like to pay his respects at the tombs of Thorin, Fili, and Kili, his fallen comrades.\r\n\r\nBut Gandalf has urged him to, \"Be quick about it! Winter is drawing near. There is a long road home around the northern edge of Mirkwood. We must not tarry if we hope to make it safely to shelter in Beorn's homestead before the first snows fall.\"\r\n\r\nBeorn, who intends to accompany them, isn't worried in the slightests about winter and snow. \"That's all right for you,\" snorts Gandalf, 'You've got your great coat of fur when the need arises. My beard helps a little, but I'd much rather be seated by your hearth, puffing on my pipe when the great blizzards roar and howl.\"\r\n\r\n\"And all I've got for fur are the curls on my feet\", adds Bilbo, \"which doesn't help much when the snow's up to my teeth. I won't be long, Gandalf.\" And off he trots.",
+  "coverImage": null,
+  "lastStandFailedResolution": null,
+  "fileVersion": "1.40",
+  "fileName": "A Very Fond Farewell.jime",
+  "saveDate": "9/11/2025",
+  "projectType": 1,
+  "scenarioName": "A Very Fond Farewell",
+  "scenarioVersion": "1",
+  "objectiveName": "Find the Dwarves",
+  "threatMax": 60,
+  "threatNotUsed": false,
+  "scenarioTypeJourney": true,
+  "initialScout": 2,
+  "subsequentScout": 2,
+  "loreReward": 0,
+  "loreStartValue": 0,
+  "xpReward": 0,
+  "xpStartValue": 0,
+  "shadowFear": 2,
+  "useTileGraphics": true,
+  "interactions": [
+    {
+      "isPersistent": false,
+      "persistentText": "",
+      "hasActivated": false,
+      "dataName": "None",
+      "GUID": "178c6972-2fed-42ae-9ae7-ebeb81482086",
+      "isEmpty": true,
+      "triggerName": "None",
+      "triggerAfterName": "None",
+      "tokenInteractionText": "",
+      "isTokenInteraction": false,
+      "tokenType": 7,
+      "personType": 4,
+      "terrainType": 0,
+      "textBookData": {
+        "dataName": "Default Text",
+        "pages": [
+          "Default Flavor Text\n\nUse this text to describe the Event situation and present choices, depending on the type of Event this is."
+        ],
+        "triggerName": "None",
+        "finalTriggerName": null,
+        "GUID": "16f879ed-724f-4ad8-b5f6-67effa0c7920",
+        "isEmpty": false
+      },
+      "eventBookData": {
+        "dataName": "Default Text",
+        "pages": [
+          "Default Event Text.\n\nThis text is shown after the Event is triggered. Use it to tell about the actual event that has been triggered Example: Describe an Enemy Threat, present a Test, describe a Decision, etc."
+        ],
+        "triggerName": "None",
+        "finalTriggerName": null,
+        "GUID": "7666add4-d8c5-42f5-a2d8-8bc5956f3534",
+        "isEmpty": false
+      },
+      "loreReward": 0,
+      "xpReward": 0,
+      "threatReward": 0,
+      "isReusable": false,
+      "interactionType": 0
+    },
+    {
+      "dataName": "Starting Position",
+      "GUID": "d0940029-d600-44f7-8fd5-19798b91cd60",
+      "isEmpty": false,
+      "triggerName": "None",
+      "triggerAfterName": "None",
+      "tokenInteractionText": "",
+      "isTokenInteraction": true,
+      "tokenType": 8,
+      "personType": 4,
+      "terrainType": 0,
+      "textBookData": {
+        "dataName": "Default Text",
+        "pages": [
+          "Default Flavor Text\n\nUse this text to describe the Event situation and present choices, depending on the type of Event this is.",
+          "Default Flavor Text\n\nUse this text to describe the Event situation and present choices, depending on the type of Event this is.",
+          "Default Flavor Text\n\nUse this text to describe the Event situation and present choices, depending on the type of Event this is.",
+          "Default Flavor Text\n\nUse this text to describe the Event situation and present choices, depending on the type of Event this is.",
+          "Default Flavor Text\n\nUse this text to describe the Event situation and present choices, depending on the type of Event this is."
+        ],
+        "triggerName": "None",
+        "finalTriggerName": null,
+        "GUID": "65441717-7560-40bc-bac2-d873a8d086ef",
+        "isEmpty": false
+      },
+      "eventBookData": {
+        "dataName": "Default Text",
+        "pages": [
+          "Default Event Text.\n\nThis text is shown after the Event is triggered. Use it to tell about the actual event that has been triggered Example: Describe an Enemy Threat, present a Test, describe a Decision, etc.",
+          "Default Event Text.\n\nThis text is shown after the Event is triggered. Use it to tell about the actual event that has been triggered Example: Describe an Enemy Threat, present a Test, describe a Decision, etc.",
+          "Default Event Text.\n\nThis text is shown after the Event is triggered. Use it to tell about the actual event that has been triggered Example: Describe an Enemy Threat, present a Test, describe a Decision, etc.",
+          "Default Event Text.\n\nThis text is shown after the Event is triggered. Use it to tell about the actual event that has been triggered Example: Describe an Enemy Threat, present a Test, describe a Decision, etc.",
+          "Default Event Text.\n\nThis text is shown after the Event is triggered. Use it to tell about the actual event that has been triggered Example: Describe an Enemy Threat, present a Test, describe a Decision, etc."
+        ],
+        "triggerName": "None",
+        "finalTriggerName": null,
+        "GUID": "9707a8e7-4415-492b-bbbd-b8d02de13197",
+        "isEmpty": false
+      },
+      "loreReward": 0,
+      "xpReward": 0,
+      "threatReward": 0,
+      "isReusable": false,
+      "interactionType": 14
+    }
+  ],
+  "triggers": [
+    {
+      "dataName": "None",
+      "GUID": "604ef4fa-e7bb-44b5-8d4a-0f9e1f4458a1",
+      "isEmpty": true,
+      "triggerValue": false,
+      "triggerName": null,
+      "isMultiTrigger": false,
+      "isCampaignTrigger": false
+    },
+    {
+      "dataName": "Scenario Succeeded",
+      "GUID": "11ed9b8c-03bb-40e0-8cfb-fd7290b48669",
+      "isEmpty": false,
+      "triggerValue": false,
+      "triggerName": null,
+      "isMultiTrigger": false,
+      "isCampaignTrigger": false
+    },
+    {
+      "dataName": "Scenario Failed",
+      "GUID": "73ddfc69-25b7-4da7-8841-a7bc959005c6",
+      "isEmpty": false,
+      "triggerValue": false,
+      "triggerName": null,
+      "isMultiTrigger": false,
+      "isCampaignTrigger": false
+    },
+    {
+      "dataName": "Scenario Last Stand Failed",
+      "GUID": "3ba6f5f5-a130-4b73-8e84-084ff94bace9",
+      "isEmpty": false,
+      "triggerValue": false,
+      "triggerName": null,
+      "isMultiTrigger": false,
+      "isCampaignTrigger": false
+    },
+    {
+      "dataName": "Objective Complete",
+      "GUID": "715a42f8-20a5-49d7-90c0-3b34b3d50381",
+      "isEmpty": false,
+      "triggerValue": false,
+      "triggerName": null,
+      "isMultiTrigger": false,
+      "isCampaignTrigger": false
+    }
+  ],
+  "objectives": [
+    {
+      "dataName": "None",
+      "GUID": "03830b24-f811-4b78-b9b7-def6d8ad46f7",
+      "isEmpty": true,
+      "eventName": "None",
+      "triggerName": "None",
+      "triggeredByName": "None",
+      "objectiveReminder": "",
+      "skipSummary": false,
+      "nextTrigger": "None",
+      "textBookData": {
+        "dataName": "Default Name",
+        "pages": [
+          "None"
+        ],
+        "triggerName": "None",
+        "finalTriggerName": null,
+        "GUID": "642b408d-ce70-49ce-ae7c-c38fa955ba9a",
+        "isEmpty": false
+      },
+      "loreReward": 0,
+      "xpReward": 0,
+      "threatReward": 0
+    },
+    {
+      "dataName": "Default Objective",
+      "GUID": "ffca70ea-c675-4790-bb56-5857f1a3deca",
+      "isEmpty": false,
+      "eventName": "None",
+      "triggerName": "Objective Complete",
+      "triggeredByName": "None",
+      "objectiveReminder": "Default Objective Reminder",
+      "skipSummary": false,
+      "nextTrigger": "None",
+      "textBookData": {
+        "dataName": "Default Name",
+        "pages": [
+          "Default Objective Text\n\nEdit this text to provide a summary to players so they understand what they need to accomplish to complete this Objective."
+        ],
+        "triggerName": "None",
+        "finalTriggerName": null,
+        "GUID": "310c35ff-7a97-4369-b9df-a445a971dc2d",
+        "isEmpty": false
+      },
+      "loreReward": 0,
+      "xpReward": 0,
+      "threatReward": 0
+    },
+    {
+      "dataName": "Find the Dwarves",
+      "GUID": "372c3bff-43fb-4e42-b4a2-854fbf18f349",
+      "isEmpty": false,
+      "eventName": "None",
+      "triggerName": "None",
+      "triggeredByName": "None",
+      "objectiveReminder": "Find the Dwarves",
+      "skipSummary": false,
+      "nextTrigger": "None",
+      "textBookData": {
+        "dataName": "Default Name",
+        "pages": [
+          "Bilbo's dwarven friends are already engrossed in the tasks of cleaning, cataloging, and beginning the work of restoring the Mountain Kingdom. You must help Bilbo find them in the depths of Erebor and gather them all together for one last farewell.\r\n\r\nBut you must complete your goodbyes before Thranduil's host marches out of the valley. Bilbo doesn't want to be left behind again!\r\n\r\n<b>Special Instructions</b>\r\n\r\n<b>Bilbo:</b> If no one is playing the Bilbo Hero, take a  <font=\"Icon\">h</font> Hobbit token and place it on one of your Hero cards. This represents Bilbo. Bilbo must be present at certain locations for some events to succeed. The <font=\"Icon\">h</font> Hobbit token may be passed to a nearby Hero once in each player's turn.\r\n\r\n<b>Dwarves:</b> One or more of your Heroes may be a Dwarf from Thorin's Company who has chosen to escort Bilbo back to the Shire. If there is a  <font=\"Icon\">K</font> Dwarf token on the map representing the same character as one of the Heroes, that Hero must be present on the same space as the <font=\"Icon\">K</font>  Dwarf token before you may  <font=\"Icon\">I</font> Interact with that token. (Balin and Dwalin, Dori, Nori and Ori, Oin and Gloin, Bifur, Bofur and Bombur)."
+        ],
+        "triggerName": "None",
+        "finalTriggerName": null,
+        "GUID": "d798389f-84f5-4867-a091-31c8db9d85f2",
+        "isEmpty": false
+      },
+      "loreReward": 0,
+      "xpReward": 0,
+      "threatReward": 0
+    }
+  ],
+  "monsterModifiers": [],
+  "activations": [],
+  "translations": [],
+  "resolutions": [
+    {
+      "dataName": "None",
+      "pages": [
+        ""
+      ],
+      "triggerName": "",
+      "finalTriggerName": null,
+      "GUID": "3c33b1ac-df66-4562-8948-9e493e280122",
+      "isEmpty": true
+    },
+    {
+      "dataName": "Default Success Resolution",
+      "pages": [
+        "Default resolution text.  This text is displayed when the Scenario has ended in SUCCESS.\n\nDifferent Resolutions can be shown based on a Trigger that gets set during the Scenario, depending on player actions.\n\nScenarios have at least one Resolution."
+      ],
+      "triggerName": "Scenario Succeeded",
+      "finalTriggerName": null,
+      "GUID": "cd792fad-d7fa-4c12-8625-0fdf96737144",
+      "isEmpty": false
+    },
+    {
+      "dataName": "Default Failure Resolution",
+      "pages": [
+        "Default resolution text.  This text is displayed when the Scenario has ended in FAILURE.\n\nDifferent Resolutions can be shown based on a Trigger that gets set during the Scenario, depending on player actions.\n\nScenarios have at least one Resolution."
+      ],
+      "triggerName": "Scenario Failed",
+      "finalTriggerName": null,
+      "GUID": "c5b1a544-1ae5-42b4-a380-e98f0a4e351d",
+      "isEmpty": false
+    },
+    {
+      "dataName": "Default Last Stand Failed Resolution",
+      "pages": [
+        "You have succumbed to the terror and trauma of battle. You stagger off, seeking desperately for a place of safety where you can tend to your wounds and calm your fears."
+      ],
+      "triggerName": "Scenario Last Stand Failed",
+      "finalTriggerName": null,
+      "GUID": "a8afcb11-db28-4186-9b73-4fa623035a7c",
+      "isEmpty": false
+    }
+  ],
+  "threats": [],
+  "chapters": [
+    {
+      "dataName": "Start",
+      "GUID": "96490a6c-a78a-442c-a264-1bac9656c355",
+      "isEmpty": true,
+      "triggerName": "None",
+      "noFlavorText": true,
+      "flavorBookData": {
+        "dataName": "Default Text",
+        "pages": [
+          "This optional text is shown when any Tile in this Chapter is first explored. It is only shown once."
+        ],
+        "triggerName": "None",
+        "finalTriggerName": null,
+        "GUID": "9208d4f0-e293-4d24-97a6-680e952a0ebb",
+        "isEmpty": false
+      },
+      "triggeredBy": "None",
+      "exploreTrigger": "None",
+      "exploredAllTilesTrigger": null,
+      "isRandomTiles": false,
+      "tileObserver": [
+        {
+          "color": 0,
+          "pathRoot": "0,1",
+          "flavorBookData": {
+            "dataName": "",
+            "pages": [
+              ""
+            ],
+            "triggerName": "None",
+            "finalTriggerName": null,
+            "GUID": "8249af22-c2b6-4d0e-826b-2f28ecac4a7b",
+            "isEmpty": false
+          },
+          "angle": 60.0,
+          "idNumber": 227,
+          "tokenCount": 2,
+          "GUID": "522594b6-4403-47d1-859d-ff29bbfefe80",
+          "tileSide": "A",
+          "position": "480,27.7128128",
+          "tileType": 0,
+          "tokenList": [],
+          "isStartTile": false,
+          "triggerName": "None"
+        },
+        {
+          "color": 1,
+          "pathRoot": "0,1",
+          "flavorBookData": {
+            "dataName": "",
+            "pages": [
+              "The stone bridge that Thorin and Company destroyed during the recent Siege of Erebor has been hastily repaired. Now admitting entrance to the Great Gates of Erebor, the bridge is abustle with traffic as Dwarves and Men hurry to and fro, busy with the labor of rebuilding and restoring the splendor of the Dwarven Kingdom and the neighboring town of Dale."
+            ],
+            "triggerName": "None",
+            "finalTriggerName": null,
+            "GUID": "60dbe51c-4739-4a37-9eb3-a0f03610fe42",
+            "isEmpty": false
+          },
+          "angle": -60.0,
+          "idNumber": 403,
+          "tokenCount": 4,
+          "GUID": "062e55f3-5170-4983-bb04-a2b9790982b5",
+          "tileSide": "B",
+          "position": "384,415.692192",
+          "tileType": 0,
+          "tokenList": [],
+          "isStartTile": false,
+          "triggerName": "None"
+        },
+        {
+          "color": 2,
+          "pathRoot": "0,1",
+          "flavorBookData": {
+            "dataName": "",
+            "pages": [
+              ""
+            ],
+            "triggerName": "None",
+            "finalTriggerName": null,
+            "GUID": "893a53b6-110e-4449-a34c-414141caa473",
+            "isEmpty": false
+          },
+          "angle": -180.0,
+          "idNumber": 226,
+          "tokenCount": 2,
+          "GUID": "49643168-b086-4966-b6d2-d9745893bfdd",
+          "tileSide": "B",
+          "position": "432,277.128128",
+          "tileType": 0,
+          "tokenList": [],
+          "isStartTile": false,
+          "triggerName": "None"
+        },
+        {
+          "color": 3,
+          "pathRoot": "0,3",
+          "flavorBookData": {
+            "dataName": "",
+            "pages": [
+              ""
+            ],
+            "triggerName": "None",
+            "finalTriggerName": null,
+            "GUID": "ef08ed8c-23d8-4326-81df-a6ac4f557cc7",
+            "isEmpty": false
+          },
+          "angle": 0.0,
+          "idNumber": 304,
+          "tokenCount": 3,
+          "GUID": "8141e0e8-6a75-47c5-8b18-cef0d9d06814",
+          "tileSide": "A",
+          "position": "192,360.2665664",
+          "tileType": 0,
+          "tokenList": [
+            {
+              "dataName": "Start",
+              "GUID": "d4bee7a9-3527-40df-a5ec-142a4d1bc7ab",
+              "isEmpty": false,
+              "triggerName": "Starting Position",
+              "tokenType": 8,
+              "personType": 4,
+              "terrainType": 0,
+              "idNumber": 0,
+              "position": "200.6,270.6",
+              "angle": 0.0,
+              "triggeredByName": "None"
+            }
+          ],
+          "isStartTile": true,
+          "triggerName": "None"
+        },
+        {
+          "color": 4,
+          "pathRoot": "0,1",
+          "flavorBookData": {
+            "dataName": "",
+            "pages": [
+              ""
+            ],
+            "triggerName": "None",
+            "finalTriggerName": null,
+            "GUID": "a8921532-8982-4506-b0ee-5c64355dcbd2",
+            "isEmpty": false
+          },
+          "angle": 0.0,
+          "idNumber": 316,
+          "tokenCount": 3,
+          "GUID": "281adda5-17eb-4210-a73a-90321b75117e",
+          "tileSide": "B",
+          "position": "240,55.4256256",
+          "tileType": 0,
+          "tokenList": [],
+          "isStartTile": false,
+          "triggerName": "None"
+        }
+      ],
+      "randomInteractionGroup": "None",
+      "randomInteractionGroupCount": 0,
+      "isStart": true,
+      "isPreExplored": false,
+      "usesRandomGroups": false,
+      "isDynamic": false,
+      "attachHint": "None",
+      "attachTileHint": 0,
+      "tileDensityPreference": 0
+    }
+  ],
+  "collections": [
+    1,
+    3,
+    5
+  ],
+  "globalTiles": [
+    100,
+    101,
+    102,
+    103,
+    104,
+    200,
+    201,
+    202,
+    203,
+    204,
+    205,
+    206,
+    207,
+    208,
+    209,
+    210,
+    211,
+    212,
+    213,
+    214,
+    215,
+    216,
+    217,
+    218,
+    219,
+    220,
+    221,
+    222,
+    223,
+    224,
+    225,
+    300,
+    301,
+    302,
+    303,
+    305,
+    306,
+    307,
+    308,
+    309,
+    310,
+    311,
+    312,
+    313,
+    314,
+    315,
+    317,
+    318,
+    319,
+    320,
+    400,
+    401,
+    402,
+    404,
+    500,
+    998,
+    999
+  ],
+  "scenarioEndStatus": {
+    "None": true,
+    "Default Success Resolution": true,
+    "Default Failure Resolution": false,
+    "Default Last Stand Failed Resolution": false
+  },
+  "introBookData": {
+    "dataName": "Default Introduction Text",
+    "pages": [
+      "Ancient Dwarven statues flank the grass-choked cobblestone road, watching you pass with their stony gaze.\r\n\r\nThe Lonely Mountain rises before you, and from its bulk jut the magnificent outer walls, the arches, and the parapets of Erebor, the lost Kingdom of the Dwarves.\r\n\r\nTo the north, the Bridge of Erebor leads to the Great Gates, and several smaller doors now stand open to a steady stream of Men and Dwarves in this time of renewed peace.\r\n\r\nNot far down the Mountain, the town of Dale is likewise awash with new activity as the refugees of ill-fated Lake-Town work to build a new life for themselves in the ruins of their ancestral dwelling.\r\n\r\nBetween these two cities, the Elvenking's host is busily at work, dissassembling their splendid tents and pavillions, loading up their carts, saddling their horses and elken steeds, and preparing to decamp."
+    ],
+    "triggerName": "None",
+    "finalTriggerName": null,
+    "GUID": "06e30b2c-251d-474d-819e-62fb75dbb0e7",
+    "isEmpty": false
+  }
+}

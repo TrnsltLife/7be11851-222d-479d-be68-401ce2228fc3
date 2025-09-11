@@ -81,6 +81,7 @@
           "Default Flavor Text\n\nUse this text to describe the Event situation and present choices, depending on the type of Event this is.",
           "Default Flavor Text\n\nUse this text to describe the Event situation and present choices, depending on the type of Event this is.",
           "Default Flavor Text\n\nUse this text to describe the Event situation and present choices, depending on the type of Event this is.",
+          "Default Flavor Text\n\nUse this text to describe the Event situation and present choices, depending on the type of Event this is.",
           "Default Flavor Text\n\nUse this text to describe the Event situation and present choices, depending on the type of Event this is."
         ],
         "triggerName": "None",
@@ -91,6 +92,7 @@
       "eventBookData": {
         "dataName": "Default Text",
         "pages": [
+          "Default Event Text.\n\nThis text is shown after the Event is triggered. Use it to tell about the actual event that has been triggered Example: Describe an Enemy Threat, present a Test, describe a Decision, etc.",
           "Default Event Text.\n\nThis text is shown after the Event is triggered. Use it to tell about the actual event that has been triggered Example: Describe an Enemy Threat, present a Test, describe a Decision, etc.",
           "Default Event Text.\n\nThis text is shown after the Event is triggered. Use it to tell about the actual event that has been triggered Example: Describe an Enemy Threat, present a Test, describe a Decision, etc.",
           "Default Event Text.\n\nThis text is shown after the Event is triggered. Use it to tell about the actual event that has been triggered Example: Describe an Enemy Threat, present a Test, describe a Decision, etc.",
